@@ -8,7 +8,7 @@ export function IconMenu() {
 		<ul className={styles.iconMenu}>
 			<li>
 				<Link>
-					<img src={HEART} alt='' />
+					<img className={styles.heart} src={HEART} alt='' />
 				</Link>
 			</li>
 			<li>

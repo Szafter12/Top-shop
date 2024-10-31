@@ -12,6 +12,11 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-text-grey);
+    transition: color 0.3s;
+}
+
+.mainMenu li a:hover {
+    color: var(--color-text-default);
 }
 
 .mainMenu a:global(.active) {
