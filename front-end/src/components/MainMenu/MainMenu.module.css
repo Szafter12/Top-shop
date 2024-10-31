@@ -1,0 +1,20 @@
+.mainMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.mainMenu li a {
+    padding: 1rem 0;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-text-grey);
+}
+
+.mainMenu a:global(.active) {
+    color: var(--color-text-default);
+    border-bottom: 3px solid var(--color-text-default);
+}
