@@ -1,0 +1,17 @@
+.bestsellers h2 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.products {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+	.products {
+		justify-content: space-between;
+	}
+}

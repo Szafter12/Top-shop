@@ -1,0 +1,38 @@
+.product {
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    width: 255px;
+	gap: 0.5rem;
+}
+
+.product img {
+	width: 100%;
+	height: 350px;
+}
+
+.productName {
+	font-weight: 700;
+}
+
+.price {
+	color: var(--color-price);
+}
+
+.heart {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: none;
+    background-image: url('../../assets/heart.svg');
+    transition: background-image 0.3s;
+}
+
+.heart:hover {
+    background-image: url('../../assets/heart-full.svg');
+}
