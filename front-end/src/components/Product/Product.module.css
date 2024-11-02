@@ -1,16 +1,17 @@
 .product {
-    position: relative;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-    width: 255px;
+	padding: 1em;
+	width: 255px;
 	gap: 0.5rem;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 .product img {
 	width: 100%;
-	height: 350px;
 }
 
 .productName {
@@ -18,21 +19,23 @@
 }
 
 .price {
-	color: var(--color-price);
+	padding: 0.5em 1em;
+	background-color: var(--color-price);
+	color: var(--color-white);
 }
 
 .heart {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 24px;
-    height: 24px;
-    background: none;
-    border: none;
-    background-image: url('../../assets/heart.svg');
-    transition: background-image 0.3s;
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	width: 24px;
+	height: 24px;
+	background: none;
+	border: none;
+	background-image: url('../../assets/heart.svg');
+	transition: background-image 0.3s;
 }
 
 .heart:hover {
-    background-image: url('../../assets/heart-full.svg');
+	background-image: url('../../assets/heart-full.svg');
 }
