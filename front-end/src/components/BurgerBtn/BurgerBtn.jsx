@@ -1,4 +1,5 @@
 import styles from './BurgerBtn.module.css'
+import BURGER from '../../assets/menu.svg'
 
 export function BurgerBtn({ click }) {
 	return (
@@ -7,7 +8,7 @@ export function BurgerBtn({ click }) {
 			onClick={() => {
 				click(prev => !prev)
 			}}>
-			<img width='50' height='50' src='https://img.icons8.com/ios/50/xbox-menu.png' alt='mobile menu button' />
+			<img width='25' height='25' src={BURGER} alt='mobile menu button' />
 		</button>
 	)
 }

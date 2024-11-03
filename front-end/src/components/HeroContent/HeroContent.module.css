@@ -15,18 +15,6 @@
 	font-size: clamp(1rem, 5vw, 1.8rem);
 }
 
-.heroContent button {
-	margin-top: 0.5rem;
-	padding: 1rem 2rem;
-	width: 100%;
-	background-color: var(--color-theme-main);
-	border: none;
-	color: var(--color-white);
-	font-size: clamp(0.7rem, 5vw, 1rem);
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
 @media (min-width: 800px) {
 	.heroContent {
 		left: 137px;

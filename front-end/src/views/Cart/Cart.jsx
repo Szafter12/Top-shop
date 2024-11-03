@@ -1,8 +1,8 @@
-import { FavProducts } from '../../components/FavProducts/FavProducts'
+import { CartList } from '../../components/CartList/CartList'
 import { Layout } from '../../components/Layout/Layout'
 
-export function FavPage() {
-	const favourites = [
+export function Cart() {
+	const cartProducts = [
 		{
 			id: 1,
 			gender: 'men',
@@ -43,10 +43,9 @@ export function FavPage() {
 		},
 	]
 
-
 	return (
 		<Layout>
-			<FavProducts favourites={favourites}/>
+			<CartList cartProducts={cartProducts} />
 		</Layout>
 	)
 }
