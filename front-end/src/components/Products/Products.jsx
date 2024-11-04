@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { Product } from '../Product/Product'
-import styles from './Bestsellers.module.css'
+import styles from './Products.module.css'
 
-export function Bestsellers() {
+export function Products({ heading }) {
 	const products = [
 		{
 			id: 1,
@@ -83,9 +83,9 @@ export function Bestsellers() {
 	]
 
 	return (
-		<div className={styles.bestsellers}>
-			<h2>Sprawdź nasze bestsellery</h2>
-			<div className={styles.products}>
+		<div className={styles.products}>
+			<h2>{heading}</h2>
+			<div className={styles.product}>
 				{products.map(product => {
 					return (
 						<Link key={product.id}>

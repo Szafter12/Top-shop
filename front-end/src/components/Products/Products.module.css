@@ -1,24 +1,23 @@
-.bestsellers h2 {
+.products {
+	width: 100%;
+}
+
+.products h2 {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 }
 
-.products {
+.product {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 1rem;
+	width: 100%;
 }
 
 @media (min-width: 600px) {
-	.products {
-		justify-content: space-between;
-	}
-}
-
-@media (min-width: 1100px) {
-	.products {
-		gap: 0;
+	.product {
+		justify-content: space-evenly;
 	}
 }
