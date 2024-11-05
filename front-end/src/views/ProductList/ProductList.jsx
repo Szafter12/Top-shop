@@ -5,6 +5,7 @@ import { Breadcrumbs } from '../../components/Breadcrumbs/Breadcrumbs'
 import { CenterContent } from '../../components/CenterContent/CenterContent'
 import { Products } from '../../components/Products/Products'
 import { Pagination } from '../../components/Pagination/Pagination'
+import styles from './ProductList.module.css'
 
 export function ProductList() {
 	return (
@@ -12,12 +13,12 @@ export function ProductList() {
 			<CenterContent>
 				<FlexContainer>
 					<ExpandableMenu />
-					<div style={{ width: '100%' }}>
+					<div className={styles.main}>
 						<Breadcrumbs />
 						<Products heading='Swetry' />
 					</div>
 				</FlexContainer>
-					<Pagination numbersOfPages={4}/>
+				<Pagination numbersOfPages={4} />
 			</CenterContent>
 		</Layout>
 	)
