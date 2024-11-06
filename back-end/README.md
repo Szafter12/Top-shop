@@ -46,7 +46,7 @@ The items returned and saved to the server have the following fields:
 
 ### Endpoint description
 
-| Ścieżka               | Metoda | Jak działa?                                                                                    |
+| Path               | Method | How does it works                                                                                    |
 | --------------------- | ------ | ---------------------------------------------------------------------------------------------- |
 | /products             | `GET`  | Wyszstkie produkty                                                                             |
 | /women/bestsellers    | `GET`  | Pobiera bestsellery z kategorii "Kobieta"                                                      |
