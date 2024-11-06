@@ -7,8 +7,9 @@ import { Cart } from './views/Cart/Cart'
 import { FavPage } from './views/FavPage/FavPage'
 import { Layout } from './components/Layout/Layout'
 import { MainPage } from './views/MainPage/MainPage'
-import { mainPageApi } from './api/mainPageApi'
-import {ProductView} from './views/ProductView/ProductView'
+import { MainPageLoader } from './api/MainPageLoader'
+import {ProductList} from './views/ProductList/ProductList'
+import { ProductListLoader } from './api/ProductListLoader'
 
 const router = createBrowserRouter([
 	{
@@ -26,11 +27,12 @@ const router = createBrowserRouter([
 			{
 				path: '/:gender?',
 				element: <MainPage />,
-				loader: mainPageApi,
+				loader: MainPageLoader,
 			},
 			{
-				path: '/product',
-				element: <ProductView />
+				path: '/:gender/:category',
+				element: <ProductList />,
+				loader: ProductListLoader
 			}
 		],
 	},
