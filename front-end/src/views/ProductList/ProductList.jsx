@@ -8,7 +8,7 @@ import { useLoaderData, useParams } from 'react-router-dom'
 import { CATEGORIES } from '../../constants/category'
 
 export function ProductList() {
-	const products = useLoaderData()
+	const { products, numberOfPages } = useLoaderData()
 	const params = useParams()
 
 	const foundCategory = CATEGORIES.find(c => c.path === params.category)
@@ -31,7 +31,7 @@ export function ProductList() {
 					/>
 				</div>
 			</FlexContainer>
-			<Pagination numbersOfPages={4} />
+			<Pagination numbersOfPages={numberOfPages} />
 		</CenterContent>
 	)
 }

@@ -8,8 +8,10 @@ import { FavPage } from './views/FavPage/FavPage'
 import { Layout } from './components/Layout/Layout'
 import { MainPage } from './views/MainPage/MainPage'
 import { MainPageLoader } from './api/MainPageLoader'
-import {ProductList} from './views/ProductList/ProductList'
+import { ProductList } from './views/ProductList/ProductList'
 import { ProductListLoader } from './api/ProductListLoader'
+import { ProductView } from './views/ProductView/ProductView'
+import { ProductLoader } from './api/ProductLoader'
 
 const router = createBrowserRouter([
 	{
@@ -32,11 +34,15 @@ const router = createBrowserRouter([
 			{
 				path: '/:gender/:category/:subcategory?',
 				element: <ProductList />,
-				loader: ProductListLoader
-			}
+				loader: ProductListLoader,
+			},
+			{
+				path: '/:gender/:category/:subcategory/:productId',
+				element: <ProductView />,
+				loader: ProductLoader,
+			},
 		],
 	},
-	
 ])
 
 createRoot(document.getElementById('root')).render(

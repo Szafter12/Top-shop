@@ -20,4 +20,8 @@
     display: none;
 }
 
+.breadcrumbs a:global(.active) {
+	font-weight: 700;
+}
+
 
