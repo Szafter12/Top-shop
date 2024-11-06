@@ -18,3 +18,15 @@
 .price {
     color: var(--color-price);
 }
+
+.details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.details ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
