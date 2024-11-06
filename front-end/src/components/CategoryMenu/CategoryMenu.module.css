@@ -1,27 +1,27 @@
 .categoryMenu {
-    background-color: var(--color-theme-main);
-    margin-top: 80px;
-    width: 100%;
+	background-color: var(--color-theme-main);
+	margin-top: 80px;
+	width: 100%;
 }
 
 .categoryMenu ul {
-    display: flex;
-    gap: 1rem;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%;
-    max-width: 100rem;
+	display: flex;
+	gap: 1rem;
+	margin: 0 auto;
+	padding: 1rem;
+	width: 100%;
+	max-width: 100rem;
 }
 
 .categoryMenu ul li a {
-    color: var(--color-white);
-    transition: color 0.3s;
+	color: var(--color-white);
+	transition: color 0.3s;
 }
 
 .categoryMenu ul li a:hover {
-    color: var(--text-color-default)
+	color: var(--text-color-default);
 }
 
-.categoryMenu ul li a:active(global) {
-    text-decoration: underline;
+.categoryMenu ul li a:global(.active) {
+	text-decoration: underline;
 }

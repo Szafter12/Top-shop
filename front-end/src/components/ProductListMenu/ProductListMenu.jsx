@@ -7,11 +7,11 @@ import styles from './ProductListMenu.module.css'
 export function ProductListMenu({ isMobile, isMobileShown, setIsMobileShown }) {
 	const params = useParams()
 	const activePath = params.category
-	
+
 	const MAPPING_GENDER = {
-		kobieta: "Kobieta",
-		mezczyzna: "Mężczyzna",
-		dziecko: "Dziecko"
+		kobieta: 'Kobieta',
+		mezczyzna: 'Mężczyzna',
+		dziecko: 'Dziecko',
 	}
 
 	return (
@@ -24,7 +24,7 @@ export function ProductListMenu({ isMobile, isMobileShown, setIsMobileShown }) {
 				<ul>
 					{CATEGORIES.map(category => {
 						return (
-							<li key={category.path}>
+							<li key={`${category.path}-${category.categoryName}`}>
 								<NavLink to={`/${params.gender}/${category.path}`}>
 									{category.categoryName}
 									<img
@@ -35,22 +35,24 @@ export function ProductListMenu({ isMobile, isMobileShown, setIsMobileShown }) {
 								</NavLink>
 								{activePath === category.path && (
 									<ul>
-										{category.subcategories.map(subcategory => {
-											return (
-												<li key={subcategory.path}>
-													<NavLink to={subcategory.path}>{subcategory.categoryName}</NavLink>
-												</li>
-											)
-										})}
+										{category.subcategories.map(subcategory => (
+											<li key={`${category.path}-${subcategory.path}`}>
+												<NavLink to={`/${params.gender}/${params.category}/${subcategory.path}`}>
+													{subcategory.categoryName}
+												</NavLink>
+											</li>
+										))}
 									</ul>
 								)}
 							</li>
 						)
 					})}
 				</ul>
-				<button className={styles.closeBtn} onClick={() => setIsMobileShown(false)}>
-					<img src={ARROW_ICON} alt='' />
-				</button>
+				{isMobile && (
+					<button className={styles.closeBtn} onClick={() => setIsMobileShown(false)}>
+						<img src={ARROW_ICON} alt='' />
+					</button>
+				)}
 			</div>
 		</div>
 	)

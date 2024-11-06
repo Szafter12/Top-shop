@@ -11,7 +11,7 @@ export function ProductList() {
 	const products = useLoaderData()
 	const params = useParams()
 
-	const foundCategory = CATEGORIES.find(c => c.path = params.category)
+	const foundCategory = CATEGORIES.find(c => c.path === params.category)
 
 	return (
 		<CenterContent>

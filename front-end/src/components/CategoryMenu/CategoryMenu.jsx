@@ -7,12 +7,10 @@ export function CategoryMenu() {
 	return (
 		<div className={styles.categoryMenu}>
 			<ul>
-				{CATEGORIES.map((category, id) => {
+				{CATEGORIES.map(category => {
 					return (
-						<li key={id}>
-							<NavLink to={`/${params.gender}/${category.path}`}>
-								{category.categoryName}
-							</NavLink>
+						<li key={`${category.path}-${category.categoryName}`}>
+							<NavLink to={`/${params.gender}/${category.path}`}>{category.categoryName}</NavLink>
 						</li>
 					)
 				})}
