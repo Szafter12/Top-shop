@@ -1,0 +1,20 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.brand {
+    font-weight: 700;
+}
+
+.price {
+    color: var(--color-price);
+}

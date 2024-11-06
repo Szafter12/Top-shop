@@ -1,5 +1,6 @@
 .arrowMenu {
 	position: absolute;
+	top: 200px;
 	left: 0;
 	display: block;
 	margin-right: 2rem;

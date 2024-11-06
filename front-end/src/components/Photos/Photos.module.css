@@ -1,0 +1,52 @@
+.photos {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 1rem;
+}
+
+.photosMin {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.photosMin button {
+	border: none;
+	background: none;
+}
+
+.photosMin img {
+	width: 85px;
+	height: 120px;
+}
+
+.mainPhoto {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 600px) {
+	.mainPhoto {
+		height: 500px;
+	}
+}
+
+@media (min-width: 900px) {
+	.photos {
+		flex-direction: row;
+	}
+	.photosMin {
+		flex-direction: column;
+	}
+	.mainPhoto {
+		width: 300px;
+		height: 396px;
+	}
+}
+
+@media (min-width: 1100px) {
+	.mainPhoto {
+		width: 500px;
+		height: 700px;
+	}
+}

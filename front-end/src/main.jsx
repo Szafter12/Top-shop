@@ -7,6 +7,7 @@ import { MainPage } from './views/MainPage/MainPage.jsx'
 import { Cart } from './views/Cart/Cart.jsx'
 import { FavPage } from './views/FavPage/FavPage.jsx'
 import { ProductList } from './views/ProductList/ProductList.jsx'
+import { ProductView } from './views/ProductView/ProductView.jsx'
 
 const router = createBrowserRouter([
 	{
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
 	{
 		path: 'productlist',
 		element: <ProductList />,
+	},
+	{
+		path: 'product',
+		element: <ProductView />,
 	},
 ])
 
