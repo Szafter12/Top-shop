@@ -1,0 +1,22 @@
+.acordion {
+	width: 100%;
+}
+
+.acordion button {
+	display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--color-text-grey);
+    background: none;
+    font-weight: 700;
+}
+
+.acordion li {
+    flex-direction: column;
+}
+
+.expanded {
+    transform: rotate(180deg);
+}

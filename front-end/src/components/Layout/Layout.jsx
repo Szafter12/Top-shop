@@ -9,8 +9,9 @@ import { MainContent } from '../MainContent/MainContent'
 import { BurgerBtn } from '../BurgerBtn/BurgerBtn'
 import { MobileMenu } from '../MobileMenu/MobileMenu'
 import { useEffect, useState } from 'react'
+import { Outlet } from 'react-router-dom'
 
-export function Layout({ children }) {
+export function Layout() {
 	const [isMobile, setIsMobile] = useState(window.innerWidth < 800)
 	const [isMobileShown, setIsMobileShown] = useState(false)
 
@@ -46,7 +47,7 @@ export function Layout({ children }) {
 					{isMobile && <BurgerBtn click={setIsMobileShown} />}
 				</TopBar>
 				<CategoryMenu />
-				{children}
+				<Outlet />
 			</MainContent>
 			<Footer />
 			{isMobile && <MobileMenu isMobileShown={isMobileShown} />}

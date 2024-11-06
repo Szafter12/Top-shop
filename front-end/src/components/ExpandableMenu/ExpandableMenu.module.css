@@ -1,32 +1,16 @@
-.expandableMenu {
-    padding-left: 1rem;
-    width: 11rem;
+.arrowMenu {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	display: block;
+	margin-right: 2rem;
+	padding: 1em;
+	background-color: var(--color-theme-main);
+	border: none;
+	z-index: 800;
 }
 
-.expandableMenu p {
-    font-weight: 700;
-    margin-bottom: 1rem;
+.arrowMenu img {
+	transform: rotate(-90deg);
 }
 
-.expandableMenu li {
-    margin-bottom: 0.5rem;
-}
-
-.expandableMenu li a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.expandableMenu li ul {
-    padding-left: 2rem;
-    margin-top: 0.5rem;
-}
-
-.expandableMenu a:global(.active) {
-    font-weight: 700;
-}
-
-.expanded {
-    transform: rotate(180deg);
-} 

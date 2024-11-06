@@ -6,9 +6,9 @@ export function MainMenu() {
 	return (
 		<nav>
 			<ul className={styles.mainMenu}>
-				{GENDERS.map((gender, id) => {
+				{GENDERS.map((gender, index) => {
 					return (
-						<li key={id}>
+						<li key={index}>
 							<NavLink to={gender.path}>{gender.categoryName}</NavLink>
 						</li>
 					)
