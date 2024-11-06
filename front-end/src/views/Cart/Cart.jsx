@@ -1,5 +1,4 @@
 import { CartList } from '../../components/CartList/CartList'
-import { Layout } from '../../components/Layout/Layout'
 
 export function Cart() {
 	const cartProducts = [
@@ -43,9 +42,5 @@ export function Cart() {
 		},
 	]
 
-	return (
-		<Layout>
-			<CartList cartProducts={cartProducts} />
-		</Layout>
-	)
+	return <CartList cartProducts={cartProducts} />
 }
