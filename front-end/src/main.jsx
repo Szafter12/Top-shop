@@ -30,7 +30,7 @@ const router = createBrowserRouter([
 				loader: MainPageLoader,
 			},
 			{
-				path: '/:gender/:category',
+				path: '/:gender/:category/:subcategory?',
 				element: <ProductList />,
 				loader: ProductListLoader
 			}

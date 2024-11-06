@@ -50,7 +50,7 @@ export function Layout() {
 				<Outlet />
 			</MainContent>
 			<Footer />
-			{isMobile && <MobileMenu isMobileShown={isMobileShown} />}
+			{isMobile && <MobileMenu setIsMobileShown={setIsMobileShown} isMobileShown={isMobileShown} />}
 		</>
 	)
 }

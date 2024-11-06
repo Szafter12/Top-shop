@@ -14,6 +14,14 @@ export function ProductListMenu({ isMobile, isMobileShown, setIsMobileShown }) {
 		dziecko: 'Dziecko',
 	}
 
+	const handleMobileHide = () => {
+		if (isMobileShown) {
+			setIsMobileShown(false)
+		} else {
+			return
+		}
+	}
+
 	return (
 		<div
 			className={`${isMobile ? styles.expandableMenuMobile : styles.expandableMenu} ${
@@ -37,7 +45,9 @@ export function ProductListMenu({ isMobile, isMobileShown, setIsMobileShown }) {
 									<ul>
 										{category.subcategories.map(subcategory => (
 											<li key={`${category.path}-${subcategory.path}`}>
-												<NavLink to={`/${params.gender}/${params.category}/${subcategory.path}`}>
+												<NavLink
+													onClick={handleMobileHide}
+													to={`/${params.gender}/${params.category}/${subcategory.path}`}>
 													{subcategory.categoryName}
 												</NavLink>
 											</li>
@@ -49,7 +59,7 @@ export function ProductListMenu({ isMobile, isMobileShown, setIsMobileShown }) {
 					})}
 				</ul>
 				{isMobile && (
-					<button className={styles.closeBtn} onClick={() => setIsMobileShown(false)}>
+					<button className={styles.closeBtn} onClick={handleMobileHide}>
 						<img src={ARROW_ICON} alt='' />
 					</button>
 				)}
