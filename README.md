@@ -1,1 +1,71 @@
-# Project under development
+
+# Top shop
+
+Demo E-commerce site created in react and json server. This is the final project of the zrozumieć-react.pl course. Detailed descriptions of the application can be found in the front-end and back-end folders. 
+The server is running on a free version of Render so the landing time of the images may be longer. 
+## Demo
+
+https://top-shop-szafter12.netlify.app/kobieta
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Szafter12/Top-shop.git
+```
+
+Go to the project directory
+
+```bash
+  cd Top-shop
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Screenshots
+
+![App Screenshot](./readme.png)
+![App Screenshot](./readme2.png)
+
+
+## Features
+
+- Adding product to cart and removing them
+- Adding products to favourities and safe it to database
+- Responsive design 
+- Counting items in cart 
+- Breadcrumbs
+- Change of currency 
+- Pagination of product
+- Different views for each gender
+- Zooming in on a product image
+
+
+
+## Tech Stack
+
+- React (React-router, CSS Modules)
+- JSON server
+- Vite
+
+
+
+
+## Authors
+
+- [@Jakub Pachut](https://github.com/Szafter12)
+
+
