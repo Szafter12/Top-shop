@@ -17,7 +17,7 @@ export function ProductList() {
 						<Products heading='Swetry' />
 					</div>
 				</FlexContainer>
-					<Pagination numbersOfPages={4}/>
+					<Pagination numbersOfPages={3}/>
 			</CenterContent>
 		</Layout>
 	)
