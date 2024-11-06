@@ -8,6 +8,7 @@ import { FavPage } from './views/FavPage/FavPage'
 import { Layout } from './components/Layout/Layout'
 import { MainPage } from './views/MainPage/MainPage'
 import { mainPageApi } from './api/mainPageApi'
+import {ProductView} from './views/ProductView/ProductView'
 
 const router = createBrowserRouter([
 	{
@@ -27,8 +28,13 @@ const router = createBrowserRouter([
 				element: <MainPage />,
 				loader: mainPageApi,
 			},
+			{
+				path: '/product',
+				element: <ProductView />
+			}
 		],
 	},
+	
 ])
 
 createRoot(document.getElementById('root')).render(

@@ -23,6 +23,16 @@
 .mainPhoto {
 	width: 100%;
 	height: auto;
+	transition: transform 0.3s;
+}
+
+.imageContainer {
+	overflow: hidden;
+}
+
+.mainPhoto:hover {
+	transform: scale(1.5);
+	cursor: zoom-in;
 }
 
 @media (min-width: 600px) {
