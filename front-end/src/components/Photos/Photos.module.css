@@ -20,14 +20,15 @@
 	height: 120px;
 }
 
-.mainPhoto {
+.mainPhoto,
+.imageContainer {
 	width: 100%;
 	height: auto;
-	transition: transform 0.3s;
+	overflow: hidden;
 }
 
-.imageContainer {
-	overflow: hidden;
+.mainPhoto {
+	transition: transform 0.3s;
 }
 
 .mainPhoto:hover {
@@ -36,7 +37,8 @@
 }
 
 @media (min-width: 600px) {
-	.mainPhoto {
+	.mainPhoto,
+	.imageContainer {
 		height: 500px;
 	}
 }
@@ -48,15 +50,17 @@
 	.photosMin {
 		flex-direction: column;
 	}
-	.mainPhoto {
+	.mainPhoto,
+	.imageContainer {
 		width: 300px;
 		height: 396px;
 	}
 }
 
 @media (min-width: 1100px) {
-	.mainPhoto {
+	.mainPhoto,
+	.imageContainer {
 		width: 500px;
-		height: 700px;
+		height: 600px;
 	}
 }

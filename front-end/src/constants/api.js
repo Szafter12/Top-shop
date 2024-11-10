@@ -4,4 +4,4 @@ export const PATH_TO_ENDPOINT_MAPPING = {
 	dziecko: 'children',
 }
 
-export const BACKEND_URL = 'https://top-shop-nap3.onrender.com'
+export const BACKEND_URL = 'http://localhost:3000'

@@ -1,5 +1,5 @@
 import BAG_ICON from '../../assets/bag.svg'
-import HEART from '../../assets/heart.svg'
+import HEART from '../../assets/heart.png'
 import styles from './IconMenu.module.css'
 import { Link } from 'react-router-dom'
 
