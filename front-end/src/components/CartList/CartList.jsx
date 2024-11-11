@@ -11,7 +11,7 @@ export function CartList({ cartProducts }) {
 					<h2>Koszyk</h2>
 					{cartProducts.length > 0 ? (
 						cartProducts.map((product, index) => {
-							return <CartProduct key={index} product={product} />
+							return <CartProduct key={index} product={product} id={index} />
 						})
 					) : (
 						<p>Twój koszyk jest pusty</p>

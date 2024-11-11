@@ -1,8 +1,12 @@
 import styles from './CartProduct.module.css'
 import removeBtn from '../../assets/remove.svg'
 import { Price } from '../Price/Price'
+import { useContext } from 'react'
+import { CartContext } from '../../contexts/CartContext'
 
 export function CartProduct({ product }) {
+	const [, , removeFromCart] = useContext(CartContext)
+
 	return (
 		<div className={styles.cartProduct}>
 			<img className={styles.productPhoto} src={product.photos[0]} />
@@ -16,7 +20,7 @@ export function CartProduct({ product }) {
 						</span>
 					</p>
 				</div>
-				<button>
+				<button onClick={() => removeFromCart(product)}>
 					<img src={removeBtn} alt='' />
 					Usuń
 				</button>
