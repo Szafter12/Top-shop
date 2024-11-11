@@ -1,12 +1,10 @@
-
 # Top shop
 
-Demo E-commerce site created in react and json server. This is the final project of the zrozumieć-react.pl course. Detailed descriptions of the application can be found in the front-end and back-end folders. 
+Demo E-commerce site created in react and json server. This is the final project of the [zrozumieć-react.pl](https://zrozumiecreact.pl/)l course. Detailed descriptions of the application can be found in the front-end and back-end folders. 
 The server is running on a free version of Render so the landing time of the images may be longer. 
 ## Demo
 
 https://top-shop-szafter12.netlify.app/kobieta
-
 
 ## Run Locally
 
@@ -34,12 +32,10 @@ Start the server
   npm run dev
 ```
 
-
 ## Screenshots
 
 ![App Screenshot](./readme.png)
 ![App Screenshot](./readme2.png)
-
 
 ## Features
 
@@ -53,7 +49,13 @@ Start the server
 - Different views for each gender
 - Zooming in on a product image
 
+## Incoming changes
 
+- improve accessibility
+- improve UX such as popup on adding items to cart/fav 
+- better images
+- products in cart has a intity
+- replace json server on a PHP or Golang backend 
 
 ## Tech Stack
 
@@ -61,11 +63,6 @@ Start the server
 - JSON server
 - Vite
 
-
-
-
 ## Authors
 
 - [@Jakub Pachut](https://github.com/Szafter12)
-
-
