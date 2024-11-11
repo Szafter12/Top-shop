@@ -1,8 +1,20 @@
-import { CURRENCIES } from "../../constants/currencies";
 import styles from './CurrencySelector.module.css'
+import { CURRENCIES } from '../../constants/currencies'
+import { useContext } from 'react'
+import { CurrencyContext } from '../../contexts/CurrencyContext'
+
 export function CurrencySelector() {
-    return <select name="currency" className={styles.currencySelector}>
-        <option value={CURRENCIES.PLN}>{CURRENCIES.PLN}</option>
-        <option value={CURRENCIES.USD}>{CURRENCIES.USD}</option>
-    </select>
+	const [currency, setCurrency] = useContext(CurrencyContext)
+	console.log(currency)
+	return (
+		<select
+			onChange={e => {
+				setCurrency(e.currentTarget.value)
+			}}
+			name='currency'
+			className={styles.currencySelector}>
+			<option value={CURRENCIES.PLN}>{CURRENCIES.PLN}</option>
+			<option value={CURRENCIES.USD}>{CURRENCIES.USD}</option>
+		</select>
+	)
 }

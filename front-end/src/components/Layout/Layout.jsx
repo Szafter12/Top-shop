@@ -10,10 +10,13 @@ import { BurgerBtn } from '../BurgerBtn/BurgerBtn'
 import { MobileMenu } from '../MobileMenu/MobileMenu'
 import { useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
+import { CurrencyContext } from '../../contexts/CurrencyContext'
+import { CURRENCIES } from '../../constants/currencies'
 
 export function Layout() {
 	const [isMobile, setIsMobile] = useState(window.innerWidth < 800)
 	const [isMobileShown, setIsMobileShown] = useState(false)
+	const [currency, setCurrency] = useState(CURRENCIES.PLN)
 
 	useEffect(() => {
 		const handleResize = () => setIsMobile(window.innerWidth < 800)
@@ -34,23 +37,25 @@ export function Layout() {
 
 	return (
 		<>
-			<MainContent>
-				<TopBar>
-					{!isMobile && <MainMenu />}
-					<Logo />
-					{!isMobile && (
-						<div>
-							<CurrencySelector />
-							<IconMenu />
-						</div>
-					)}
-					{isMobile && <BurgerBtn click={setIsMobileShown} />}
-				</TopBar>
-				<CategoryMenu />
-				<Outlet />
-			</MainContent>
-			<Footer />
-			{isMobile && <MobileMenu setIsMobileShown={setIsMobileShown} isMobileShown={isMobileShown} />}
+			<CurrencyContext.Provider value={[currency, setCurrency]}>
+				<MainContent>
+					<TopBar>
+						{!isMobile && <MainMenu />}
+						<Logo />
+						{!isMobile && (
+							<div>
+								<CurrencySelector />
+								<IconMenu />
+							</div>
+						)}
+						{isMobile && <BurgerBtn click={setIsMobileShown} />}
+					</TopBar>
+					<CategoryMenu />
+					<Outlet />
+				</MainContent>
+				<Footer />
+				{isMobile && <MobileMenu setIsMobileShown={setIsMobileShown} isMobileShown={isMobileShown} />}
+			</CurrencyContext.Provider>
 		</>
 	)
 }
