@@ -1,6 +1,7 @@
 import styles from './FavProduct.module.css'
 import removeBtn from '../../assets/remove.svg'
 import cartBtn from '../../assets/favCart.svg'
+import { Price } from '../Price/Price'
 import { useFetcher } from 'react-router-dom'
 
 export function FavProduct({ favourite }) {
@@ -14,7 +15,10 @@ export function FavProduct({ favourite }) {
 				<div className={styles.top}>
 					<p className={styles.productName}>{product.productName}</p>
 					<p className={styles.priceContent}>
-						Cena: <span className={styles.price}>{product.pricePLN}zł</span>
+						Cena:{' '}
+						<span className={styles.price}>
+							<Price product={product} />
+						</span>
 					</p>
 				</div>
 				<div className={styles.buttons}>

@@ -1,5 +1,6 @@
 import styles from './CartProduct.module.css'
 import removeBtn from '../../assets/remove.svg'
+import { Price } from '../Price/Price'
 
 export function CartProduct({ product }) {
 	return (
@@ -9,7 +10,10 @@ export function CartProduct({ product }) {
 				<div className={styles.top}>
 					<p className={styles.productName}>{product.productName}</p>
 					<p className={styles.priceContent}>
-						Cena: <span className={styles.price}>{product.pricePLN}zł</span>
+						Cena:{' '}
+						<span className={styles.price}>
+							<Price product={product} />
+						</span>
 					</p>
 				</div>
 				<button>

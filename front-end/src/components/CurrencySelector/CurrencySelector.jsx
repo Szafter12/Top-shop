@@ -5,11 +5,14 @@ import { CurrencyContext } from '../../contexts/CurrencyContext'
 
 export function CurrencySelector() {
 	const [currency, setCurrency] = useContext(CurrencyContext)
-	console.log(currency)
+
 	return (
 		<select
+			value={currency}
 			onChange={e => {
-				setCurrency(e.currentTarget.value)
+				const currentCurrency = e.currentTarget.value
+				setCurrency(currentCurrency)
+				localStorage['selected_currency'] = currentCurrency
 			}}
 			name='currency'
 			className={styles.currencySelector}>

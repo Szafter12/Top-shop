@@ -16,7 +16,7 @@ import { CURRENCIES } from '../../constants/currencies'
 export function Layout() {
 	const [isMobile, setIsMobile] = useState(window.innerWidth < 800)
 	const [isMobileShown, setIsMobileShown] = useState(false)
-	const [currency, setCurrency] = useState(CURRENCIES.PLN)
+	const [currency, setCurrency] = useState(localStorage['selected_currency'] || CURRENCIES.PLN)
 
 	useEffect(() => {
 		const handleResize = () => setIsMobile(window.innerWidth < 800)

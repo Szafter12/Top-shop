@@ -3,6 +3,7 @@ import styles from './Details.module.css'
 import CAR from '../../assets/car.svg'
 import RETURN from '../../assets/return.svg'
 import { Acordion } from '../Acordion/Acordion'
+import { Price } from '../Price/Price'
 
 export function Details({ product }) {
 	const acordionInfo = [
@@ -21,7 +22,9 @@ export function Details({ product }) {
 			<div className={styles.info}>
 				<h2>{product.productName}</h2>
 				<p className={styles.brand}>{product.brand}</p>
-				<p className={styles.price}>{product.pricePLN} zł</p>
+				<p className={styles.price}>
+					<Price product={product} />
+				</p>
 			</div>
 			<FullWidthBtn bgc='var(--color-text-default)'>Dodaj do koszyka</FullWidthBtn>
 			<ul>
