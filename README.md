@@ -39,15 +39,16 @@ Start the server
 
 ## Features
 
-- Adding product to cart and removing them
-- Adding products to favourities and safe it to database
+- Adding/removing product to/from the cart and save cart to localStorage
+- Adding/removing products to/from favourities and save it to database
 - Responsive design 
 - Counting items in cart 
 - Breadcrumbs
-- Change of currency 
-- Pagination of product
+- Currency change 
+- Pagination 
 - Different views for each gender
 - Zooming in on a product image
+- scalable code 
 
 ## Incoming changes
 
@@ -59,7 +60,7 @@ Start the server
 
 ## Tech Stack
 
-- React (React-router, CSS Modules)
+- React
 - JSON server
 - Vite
 
