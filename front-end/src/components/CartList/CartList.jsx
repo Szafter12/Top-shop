@@ -9,11 +9,15 @@ export function CartList({ cartProducts }) {
 			<div className={styles.dFlex}>
 				<div className={styles.cartList}>
 					<h2>Koszyk</h2>
-					{cartProducts.map(product => {
-						return <CartProduct key={product.id} product={product} />
-					})}
+					{cartProducts.length > 0 ? (
+						cartProducts.map((product, index) => {
+							return <CartProduct key={index} product={product} />
+						})
+					) : (
+						<p>Twój koszyk jest pusty</p>
+					)}
 				</div>
-                <Summary products={cartProducts} />
+				<Summary products={cartProducts} />
 			</div>
 		</CenterContent>
 	)

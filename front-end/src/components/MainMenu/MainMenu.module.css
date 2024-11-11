@@ -13,17 +13,17 @@
 	display: block;
 	font-weight: 700;
 	text-transform: uppercase;
-    color: var(--color-text-default);
+	color: var(--color-white);
 	transition: color 0.3s;
 }
 
 .mainMenu li a:hover {
-	color: var(--color-text-default);
+	color: var(--color-white);
 }
 
 .mainMenu a:global(.active) {
-	color: var(--color-text-default);
-	border-bottom: 3px solid var(--color-text-default);
+	color: var(--color-white);
+	border-bottom: 3px solid var(--color-white);
 }
 
 @media (min-width: 800px) {
@@ -31,7 +31,14 @@
 		flex-direction: row;
 		justify-content: flex-start;
 	}
-    .mainMenu li a {
-        color: var(--color-text-grey);
-    }
+	.mainMenu li a {
+		color: var(--color-text-grey);
+	}
+	.mainMenu a:global(.active) {
+		color: var(--color-text-default);
+		border-bottom: 3px solid var(--color-text-default);
+	}
+	.mainMenu li a:hover {
+		color: var(--color-text-default);
+	}
 }

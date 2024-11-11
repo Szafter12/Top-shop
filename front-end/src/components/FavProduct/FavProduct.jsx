@@ -3,10 +3,14 @@ import removeBtn from '../../assets/remove.svg'
 import cartBtn from '../../assets/favCart.svg'
 import { Price } from '../Price/Price'
 import { useFetcher } from 'react-router-dom'
+import { useContext } from 'react'
+import { CartContext } from '../../contexts/CartContext'
 
 export function FavProduct({ favourite }) {
 	const product = favourite.product
 	const { Form } = useFetcher()
+
+	const [, addToCart] = useContext(CartContext)
 
 	return (
 		<div className={styles.favProduct}>
@@ -28,7 +32,10 @@ export function FavProduct({ favourite }) {
 							Usuń
 						</button>
 					</Form>
-					<button>
+					<button
+						onClick={() => {
+							addToCart(product)
+						}}>
 						<img src={cartBtn} alt='' />
 						Dodaj do koszyka
 					</button>

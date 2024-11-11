@@ -1432,10 +1432,5 @@
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
     }
   ],
-  "favourites": [
-    {
-      "productId": 2,
-      "id": 1
-    }
-  ]
+  "favourites": []
 }

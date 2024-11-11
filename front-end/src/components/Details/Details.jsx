@@ -4,8 +4,12 @@ import CAR from '../../assets/car.svg'
 import RETURN from '../../assets/return.svg'
 import { Acordion } from '../Acordion/Acordion'
 import { Price } from '../Price/Price'
+import { useContext } from 'react'
+import { CartContext } from '../../contexts/CartContext'
 
 export function Details({ product }) {
+	const [, addToCart] = useContext(CartContext)
+
 	const acordionInfo = [
 		{
 			title: 'Opis produktu',
@@ -26,7 +30,13 @@ export function Details({ product }) {
 					<Price product={product} />
 				</p>
 			</div>
-			<FullWidthBtn bgc='var(--color-text-default)'>Dodaj do koszyka</FullWidthBtn>
+			<FullWidthBtn
+				onClick={() => {
+					addToCart(product)
+				}}
+				bgc='var(--color-text-default)'>
+				Dodaj do koszyka
+			</FullWidthBtn>
 			<ul>
 				<li>
 					<img src={CAR} alt='' />

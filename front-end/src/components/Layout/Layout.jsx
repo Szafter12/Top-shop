@@ -12,11 +12,15 @@ import { useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { CurrencyContext } from '../../contexts/CurrencyContext'
 import { CURRENCIES } from '../../constants/currencies'
+import { CartContext } from '../../contexts/CartContext'
 
 export function Layout() {
 	const [isMobile, setIsMobile] = useState(window.innerWidth < 800)
 	const [isMobileShown, setIsMobileShown] = useState(false)
 	const [currency, setCurrency] = useState(localStorage['selected_currency'] || CURRENCIES.PLN)
+	const [cartItems, setCartItems] = useState(
+		localStorage['cart_products'] ? JSON.parse(localStorage["cart_products"]) : []
+	)
 
 	useEffect(() => {
 		const handleResize = () => setIsMobile(window.innerWidth < 800)
@@ -35,27 +39,37 @@ export function Layout() {
 		return () => (document.body.style.overflowY = 'auto')
 	}, [isMobileShown, isMobile])
 
+	const addToCart = product => {
+		setCartItems(prevCartItems => {
+			const newState = [...prevCartItems, product]
+			localStorage['cart_products'] = JSON.stringify(newState)
+			return newState
+		})
+	}
+
 	return (
 		<>
-			<CurrencyContext.Provider value={[currency, setCurrency]}>
-				<MainContent>
-					<TopBar>
-						{!isMobile && <MainMenu />}
-						<Logo />
-						{!isMobile && (
-							<div>
-								<CurrencySelector />
-								<IconMenu />
-							</div>
-						)}
-						{isMobile && <BurgerBtn click={setIsMobileShown} />}
-					</TopBar>
-					<CategoryMenu />
-					<Outlet />
-				</MainContent>
-				<Footer />
-				{isMobile && <MobileMenu setIsMobileShown={setIsMobileShown} isMobileShown={isMobileShown} />}
-			</CurrencyContext.Provider>
+			<CartContext.Provider value={[cartItems, addToCart]}>
+				<CurrencyContext.Provider value={[currency, setCurrency]}>
+					<MainContent>
+						<TopBar>
+							{!isMobile && <MainMenu />}
+							<Logo />
+							{!isMobile && (
+								<div>
+									<CurrencySelector />
+									<IconMenu />
+								</div>
+							)}
+							{isMobile && <BurgerBtn click={setIsMobileShown} />}
+						</TopBar>
+						<CategoryMenu />
+						<Outlet />
+					</MainContent>
+					<Footer />
+					{isMobile && <MobileMenu setIsMobileShown={setIsMobileShown} isMobileShown={isMobileShown} />}
+				</CurrencyContext.Provider>
+			</CartContext.Provider>
 		</>
 	)
 }

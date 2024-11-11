@@ -2,15 +2,7 @@ import { NavLink } from 'react-router-dom'
 import { GENDERS } from '../../constants/category'
 import styles from './MainMenu.module.css'
 
-export function MainMenu({ setIsMobileShown }) {
-	const handleMobile = () => {
-		if (setIsMobileShown) {
-			setIsMobileShown(false)
-		} else {
-			return
-		}
-	}
-
+export function MainMenu({ handleMobile }) {
 	return (
 		<nav>
 			<ul className={styles.mainMenu}>
