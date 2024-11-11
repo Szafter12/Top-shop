@@ -17,6 +17,7 @@
 .productPhoto {
 	width: 140px;
 	height: 180px;
+	object-fit: cover;
 }
 
 .priceContent {
@@ -65,6 +66,6 @@
 
 	.productPhoto {
 		height: 180px;
-		width: auto;
+		width: 180px;
 	}
 }

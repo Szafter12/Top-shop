@@ -1,5 +1,5 @@
-import styles from './Product.module.css'
 import { Link, useFetcher } from 'react-router-dom'
+import styles from './Product.module.css'
 
 const MAP_GENDERS = {
 	men: 'mezczyzna',

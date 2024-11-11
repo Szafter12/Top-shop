@@ -7,14 +7,14 @@ export function IconMenu() {
 	return (
 		<ul className={styles.iconMenu}>
 			<li>
-				<Link>
+				<Link to={'/ulubione'}>
 					<img className={styles.heart} src={HEART} alt='' />
 				</Link>
 			</li>
 			<li>
-				<Link>
+				<Link to={'/koszyk'}>
 					<img src={BAG_ICON} alt='' />
-                    <div className={styles.numbersOfItems}>2</div>
+					<div className={styles.numbersOfItems}>2</div>
 				</Link>
 			</li>
 		</ul>
