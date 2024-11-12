@@ -11,9 +11,9 @@
         "pricePLN": 49,
         "priceUSD": 10,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg"
+          "https://top-shop-nap3.onrender.com/women-shoes-1.jpg",
+          "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+          "https://top-shop-nap3.onrender.com/women-shoes-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -28,9 +28,9 @@
         "pricePLN": 149,
         "priceUSD": 39,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg"
+          "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+          "https://top-shop-nap3.onrender.com/women-shoes-3.jpg",
+          "https://top-shop-nap3.onrender.com/women-shoes-1.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -45,9 +45,9 @@
         "pricePLN": 299,
         "priceUSD": 59,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg"
+          "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+          "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+          "https://top-shop-nap3.onrender.com/women-trousers-1.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -62,9 +62,9 @@
         "pricePLN": 149,
         "priceUSD": 39,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg"
+          "https://top-shop-nap3.onrender.com/women-trousers-1.jpg",
+          "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+          "https://top-shop-nap3.onrender.com/women-trousers-2.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -72,7 +72,7 @@
     ],
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
     "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
-    "heroImageUrl": "https://top-shop-nap3.onrender.com/product-photos/women.jpg"
+    "heroImageUrl": "https://top-shop-nap3.onrender.com/women.jpg"
   },
   "men": {
     "bestsellers": [
@@ -86,9 +86,9 @@
         "pricePLN": 49,
         "priceUSD": 10,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+          "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -103,9 +103,9 @@
         "pricePLN": 49,
         "priceUSD": 10,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+          "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -120,9 +120,9 @@
         "pricePLN": 199,
         "priceUSD": 49,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+          "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -137,9 +137,9 @@
         "pricePLN": 199,
         "priceUSD": 49,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+          "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+          "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -147,7 +147,7 @@
     ],
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
     "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
-    "heroImageUrl": "https://top-shop-nap3.onrender.com/product-photos/men.jpg"
+    "heroImageUrl": "https://top-shop-nap3.onrender.com/men.jpg"
   },
   "children": {
     "bestsellers": [
@@ -161,9 +161,9 @@
         "pricePLN": 499,
         "priceUSD": 99,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+          "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+          "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+          "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -178,9 +178,9 @@
         "pricePLN": 199,
         "priceUSD": 39,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+          "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+          "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+          "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -195,9 +195,9 @@
         "pricePLN": 299,
         "priceUSD": 59,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+          "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+          "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+          "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -212,9 +212,9 @@
         "pricePLN": 599,
         "priceUSD": 119,
         "photos": [
-          "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-          "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+          "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+          "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+          "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -222,7 +222,7 @@
     ],
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
     "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
-    "heroImageUrl": "https://top-shop-nap3.onrender.com/product-photos/children.jpg"
+    "heroImageUrl": "https://top-shop-nap3.onrender.com/children.jpg"
   },
   "products": [
     {
@@ -235,9 +235,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -252,9 +252,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -269,9 +269,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -286,9 +286,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -303,9 +303,9 @@
       "pricePLN": 129,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -320,9 +320,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -337,9 +337,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -354,9 +354,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -371,9 +371,9 @@
       "pricePLN": 129,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -388,9 +388,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -405,9 +405,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -422,9 +422,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -439,9 +439,9 @@
       "pricePLN": 129,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -456,9 +456,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -473,9 +473,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -490,9 +490,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -507,9 +507,9 @@
       "pricePLN": 129,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -524,9 +524,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -541,9 +541,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -558,9 +558,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -575,9 +575,9 @@
       "pricePLN": 129,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -592,9 +592,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -609,9 +609,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -626,9 +626,9 @@
       "pricePLN": 199,
       "priceUSD": 49,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-1.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -643,9 +643,9 @@
       "pricePLN": 129,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/man-t-shirt-4.jpg"
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-3.jpg",
+        "https://top-shop-nap3.onrender.com/man-t-shirt-4.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -660,8 +660,8 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg"
       ],
       "description": "Opis produktu pobrany z back endu ;)",
       "maintenanceInfo": "Informacje o konserwacji pobrane z back-endu"
@@ -676,9 +676,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-3.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -693,9 +693,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -710,9 +710,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg"
+        "https://top-shop-nap3.onrender.com/women-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -727,9 +727,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -744,9 +744,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -761,9 +761,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -778,9 +778,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg"
+        "https://top-shop-nap3.onrender.com/women-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -795,9 +795,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-3.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -812,9 +812,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -829,9 +829,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg"
+        "https://top-shop-nap3.onrender.com/women-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -846,9 +846,9 @@
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -863,9 +863,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-3.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -880,9 +880,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -897,9 +897,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg"
+        "https://top-shop-nap3.onrender.com/women-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -914,9 +914,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-shoes-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-3.jpg",
+        "https://top-shop-nap3.onrender.com/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -931,9 +931,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-sweater-1.jpg"
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-sweater-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -948,9 +948,9 @@
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/women-trousers-2.jpg"
+        "https://top-shop-nap3.onrender.com/women-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -965,9 +965,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -982,9 +982,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -999,9 +999,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1016,9 +1016,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1033,9 +1033,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1050,9 +1050,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1067,9 +1067,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1084,9 +1084,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1101,9 +1101,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1118,9 +1118,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1135,9 +1135,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1152,9 +1152,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1169,9 +1169,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1186,9 +1186,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1203,9 +1203,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1220,9 +1220,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1237,9 +1237,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1254,9 +1254,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1271,9 +1271,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1288,9 +1288,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1305,9 +1305,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1322,9 +1322,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1339,9 +1339,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1356,9 +1356,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1373,9 +1373,9 @@
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1390,9 +1390,9 @@
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-shoes-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-shoes-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1407,9 +1407,9 @@
       "pricePLN": 299,
       "priceUSD": 59,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -1424,9 +1424,9 @@
       "pricePLN": 599,
       "priceUSD": 119,
       "photos": [
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-2.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-3.jpg",
-        "https://top-shop-nap3.onrender.com/product-photos/children-trousers-1.jpg"
+        "https://top-shop-nap3.onrender.com/children-trousers-2.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-3.jpg",
+        "https://top-shop-nap3.onrender.com/children-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
