@@ -13,14 +13,16 @@ import { Outlet } from 'react-router-dom'
 import { CurrencyContext } from '../../contexts/CurrencyContext'
 import { CURRENCIES } from '../../constants/currencies'
 import { CartContext } from '../../contexts/CartContext'
+import { useLocalStorage } from '../../hooks/useLocalStorage'
 
 export function Layout() {
 	const [isMobile, setIsMobile] = useState(window.innerWidth < 800)
+
 	const [isMobileShown, setIsMobileShown] = useState(false)
-	const [currency, setCurrency] = useState(localStorage['selected_currency'] || CURRENCIES.PLN)
-	const [cartItems, setCartItems] = useState(() => {
-		return localStorage['cart_products'] ? JSON.parse(localStorage['cart_products']) : []
-	})
+
+	const [currency, setCurrency] = useLocalStorage('selected_currency', CURRENCIES.PLN)
+	
+	const [cartItems, setCartItems] = useLocalStorage('cart_products', [])
 
 	useEffect(() => {
 		const handleResize = () => setIsMobile(window.innerWidth < 800)
@@ -40,19 +42,13 @@ export function Layout() {
 	}, [isMobileShown, isMobile])
 
 	const addToCart = product => {
-		setCartItems(prevCartItems => {
-			const newState = [...prevCartItems, product]
-			localStorage['cart_products'] = JSON.stringify(newState)
-			return newState
-		})
+		const newState = [...cartItems, product]
+		setCartItems(newState)
 	}
 
 	const removeFromCart = product => {
-		setCartItems(prevCartItems => {
-			const newState = prevCartItems.filter(el => el.id !== product.id)
-			localStorage['cart_products'] = JSON.stringify(newState)
-			return newState
-		})
+		const newState = cartItems.filter(el => el.id !== product.id)
+		setCartItems(newState)
 	}
 
 	return (

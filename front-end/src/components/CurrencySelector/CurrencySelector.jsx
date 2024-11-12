@@ -12,7 +12,6 @@ export function CurrencySelector() {
 			onChange={e => {
 				const currentCurrency = e.currentTarget.value
 				setCurrency(currentCurrency)
-				localStorage['selected_currency'] = currentCurrency
 			}}
 			name='currency'
 			className={styles.currencySelector}>
