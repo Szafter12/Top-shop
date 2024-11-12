@@ -55,7 +55,7 @@ Start the server
 - improve accessibility
 - improve UX such as popup on adding items to cart/fav 
 - better images
-- products in cart has a intity
+- products in cart will be have quantity
 - replace json server on a PHP or Golang backend 
 
 ## Tech Stack
