@@ -2,7 +2,7 @@
 
 Demo E-commerce site created in react and json server. This is the final project of the [zrozumieć-react.pl](https://zrozumiecreact.pl/) course. Detailed descriptions of the application can be found in the front-end and back-end folders.
 <br><br>
-<strong>WARNING! The backend server is running on a free version of Render web service so the landing time of the site and images may be longer please be patient.</strong> 
+<b>WARNING! The backend server is running on a free version of Render web service so the landing time of the site and images may be longer please be patient.</b> 
 
 ## Demo
 
