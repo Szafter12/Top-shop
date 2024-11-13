@@ -21,7 +21,7 @@ export function Summary({ products }) {
 	const freeDeliveryFrom = freeDeliveryFroms[currency]
 
 	const itemSumPrice = products.reduce(
-		(acc, current) => (acc + currency === CURRENCIES.PLN ? current.pricePLN : current.priceUSD),
+		(acc, current) => (currency === CURRENCIES.PLN ? acc + current.pricePLN : acc + current.priceUSD),
 		0
 	)
 	const finalPrice = itemSumPrice < freeDeliveryFrom ? itemSumPrice + deliveryCost : itemSumPrice
