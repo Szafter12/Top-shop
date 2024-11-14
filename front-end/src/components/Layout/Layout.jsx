@@ -21,8 +21,15 @@ export function Layout() {
 	const [isMobileShown, setIsMobileShown] = useState(false)
 
 	const [currency, setCurrency] = useLocalStorage('selected_currency', CURRENCIES.PLN)
-	
-	const [cartItems, setCartItems] = useLocalStorage('cart_products', [])
+
+	const [cartItems, setCartItems] = useState(() => {
+		const savedCart = localStorage.getItem('cart_products')
+		return savedCart ? JSON.parse(savedCart) : []
+	})
+
+	useEffect(() => {
+		localStorage.setItem('cart_products', JSON.stringify(cartItems))
+	}, [cartItems])
 
 	useEffect(() => {
 		const handleResize = () => setIsMobile(window.innerWidth < 800)
@@ -42,8 +49,28 @@ export function Layout() {
 	}, [isMobileShown, isMobile])
 
 	const addToCart = product => {
-		const newState = [...cartItems, product]
-		setCartItems(newState)
+		const ProductInCart = cartItems.find(prod => prod.id === product.id)
+
+		if (ProductInCart) {
+			ProductInCart.quantity += 1
+			const newCart = cartItems.filter(el => el.id !== product.id)
+			const newState = [...newCart, ProductInCart]
+			setCartItems(newState)
+		} else {
+			const newState = [...cartItems, { ...product, quantity: 1 }]
+			setCartItems(newState)
+		}
+	}
+
+	const updateQuantity = (product, newQuantity) => {
+		setCartItems(prevCartItems => {
+			const updatedCart = prevCartItems.map(item =>
+				item.id === product.id ? { ...item, quantity: newQuantity } : item
+			)
+
+			localStorage.setItem('cart_products', JSON.stringify(updatedCart))
+			return updatedCart
+		})
 	}
 
 	const removeFromCart = product => {
@@ -53,7 +80,7 @@ export function Layout() {
 
 	return (
 		<>
-			<CartContext.Provider value={[cartItems, addToCart, removeFromCart]}>
+			<CartContext.Provider value={[cartItems, addToCart, removeFromCart, updateQuantity]}>
 				<CurrencyContext.Provider value={[currency, setCurrency]}>
 					<MainContent>
 						<TopBar>

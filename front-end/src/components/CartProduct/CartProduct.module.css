@@ -20,7 +20,7 @@
 }
 
 .priceContent {
-	margin-top: 1rem;
+	margin: 1rem 0;
 	color: var(--color-text-grey);
 }
 
@@ -48,8 +48,23 @@
 	height: 15px;
 }
 
+.cartProduct .quantity {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.cartProduct .quantity input {
+	width: 50px;
+	padding: 0.5rem;
+}
+
 @media (min-width: 600px) {
 	.cartProduct {
 		gap: 3rem;
+	}
+	.cartProduct .quantity input {
+		padding: 0.5rem;
+		width: 50px;
 	}
 }

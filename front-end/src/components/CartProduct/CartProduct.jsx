@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { CartContext } from '../../contexts/CartContext'
 
 export function CartProduct({ product }) {
-	const [, , removeFromCart] = useContext(CartContext)
+	const [, , removeFromCart, updateQuantity] = useContext(CartContext)
 
 	return (
 		<div className={styles.cartProduct}>
@@ -19,6 +19,17 @@ export function CartProduct({ product }) {
 							<Price product={product} />
 						</span>
 					</p>
+					<div className={styles.quantity}>
+						<label htmlFor='quantity'>Ilość:</label>
+						<input
+							type='number'
+							id='quantity'
+							min={1}
+							max={99}
+							defaultValue={product.quantity}
+							onChange={e => updateQuantity(product, e.target.value)}
+						/>
+					</div>
 				</div>
 				<button onClick={() => removeFromCart(product)}>
 					<img src={removeBtn} alt='' />
