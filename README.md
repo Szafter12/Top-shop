@@ -36,8 +36,8 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](./readme.png)
-![App Screenshot](./readme2.png)
+![App Screenshot](./readmeImg/readme.png)
+![App Screenshot](./readmeImg/readme2.png)
 
 ## Features
 
