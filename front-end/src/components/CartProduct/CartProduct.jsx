@@ -27,7 +27,7 @@ export function CartProduct({ product }) {
 							min={1}
 							max={99}
 							defaultValue={product.quantity}
-							onChange={e => updateQuantity(product, e.target.value)}
+							onChange={e => updateQuantity(product, Number(e.target.value))}
 						/>
 					</div>
 				</div>
