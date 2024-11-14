@@ -46,7 +46,8 @@ Start the server
 - Responsive design 
 - Counting items in cart 
 - Breadcrumbs
-- Currency change 
+- Currency change
+- products in cart have quantity 
 - Pagination 
 - Different views for each gender
 - Zooming in on a product image
@@ -57,7 +58,6 @@ Start the server
 - improve accessibility
 - improve UX such as popup on adding items to cart/fav 
 - better images
-- products in cart will be have quantity
 - replace json server on a PHP or Golang backend 
 
 ## Tech Stack
