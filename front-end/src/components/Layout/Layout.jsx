@@ -65,6 +65,7 @@ export function Layout() {
 	const removeFromCart = product => {
 		const newState = cartItems.filter(el => el.id !== product.id)
 		setCartItems(newState)
+		localStorage.setItem('cart_products', JSON.stringify(newState))
 	}
 
 	return (
