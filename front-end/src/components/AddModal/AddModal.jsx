@@ -1,6 +1,6 @@
 import styles from './AddModal.module.css'
 
-export default function AddModal({ isModalActive, children }) {
+export function AddModal({ isModalActive, children }) {
 	const modalActive = isModalActive ? styles.active : ''
 
 	return (

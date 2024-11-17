@@ -16,6 +16,7 @@ import { CartContext } from '../../contexts/CartContext'
 import { useLocalStorage } from '../../hooks/useLocalStorage'
 import { useDisableScroll } from '../../hooks/useDisableScroll'
 import { useResize } from '../../hooks/useResize'
+import { ModalContext } from '../../contexts/ModalContext'
 
 export function Layout() {
 	const mobileWidth = 800
@@ -29,6 +30,8 @@ export function Layout() {
 		const savedCart = localStorage.getItem('cart_products')
 		return savedCart ? JSON.parse(savedCart) : []
 	})
+
+	const [isModalActive, setIsModalActive] = useState(false)
 
 	useResize(setIsMobile, 800)
 
@@ -81,7 +84,9 @@ export function Layout() {
 							{isMobile && <BurgerBtn click={setIsMobileShown} />}
 						</TopBar>
 						<CategoryMenu />
-						<Outlet />
+						<ModalContext.Provider value={[isModalActive, setIsModalActive]}>
+							<Outlet />
+						</ModalContext.Provider>
 					</MainContent>
 					<Footer />
 					{isMobile && <MobileMenu setIsMobileShown={setIsMobileShown} isMobileShown={isMobileShown} />}

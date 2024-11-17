@@ -7,7 +7,7 @@ import { Price } from '../Price/Price'
 import { useContext } from 'react'
 import { CartContext } from '../../contexts/CartContext'
 
-export function Details({ product }) {
+export function Details({ product, setIsModalActive }) {
 	const [, addToCart] = useContext(CartContext)
 
 	const acordionInfo = [
@@ -33,6 +33,10 @@ export function Details({ product }) {
 			<FullWidthBtn
 				onClick={() => {
 					addToCart(product)
+					setIsModalActive(true)
+					setTimeout(() => {
+						setIsModalActive(false)
+					}, 2000)
 				}}
 				bgc='var(--color-text-default)'>
 				Dodaj do koszyka

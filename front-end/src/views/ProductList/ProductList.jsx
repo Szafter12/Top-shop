@@ -6,10 +6,14 @@ import { Products } from '../../components/Products/Products'
 import { Pagination } from '../../components/Pagination/Pagination'
 import { useLoaderData, useParams } from 'react-router-dom'
 import { CATEGORIES } from '../../constants/category'
+import { AddModal } from '../../components/AddModal/AddModal'
+import { useContext } from 'react'
+import { ModalContext } from '../../contexts/ModalContext'
 
 export function ProductList() {
 	const { products, numberOfPages } = useLoaderData()
 	const params = useParams()
+	const [isModalActive, setIsModalActive] = useContext(ModalContext)
 
 	const foundCategory = CATEGORIES.find(c => c.path === params.category)
 
@@ -27,11 +31,13 @@ export function ProductList() {
 					<Breadcrumbs />
 					<Products
 						products={products}
+						setIsModalActive={setIsModalActive}
 						heading={foundSubCategory ? foundSubCategory.categoryName : foundCategory.categoryName}
 					/>
 				</div>
 			</FlexContainer>
 			<Pagination numbersOfPages={numberOfPages} />
+			<AddModal isModalActive={isModalActive}>Ulubionych</AddModal>
 		</CenterContent>
 	)
 }
