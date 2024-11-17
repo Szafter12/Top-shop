@@ -19,7 +19,7 @@
 }
 
 .categoryMenu ul li a:hover {
-	color: var(--text-color-default);
+	text-decoration: underline;
 }
 
 .categoryMenu ul li a:global(.active) {

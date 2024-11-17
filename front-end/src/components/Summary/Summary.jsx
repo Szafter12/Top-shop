@@ -22,10 +22,12 @@ export function Summary({ products }) {
 
 	const itemSumPrice = products.reduce(
 		(acc, current) =>
-			currency === CURRENCIES.PLN ? acc + current.pricePLN * current.quantity : acc + current.priceUSD,
+			currency === CURRENCIES.PLN
+				? acc + current.pricePLN * current.quantity
+				: acc + current.priceUSD * current.quantity,
 		0
 	)
-	
+
 	const finalPrice = itemSumPrice < freeDeliveryFrom ? itemSumPrice + deliveryCost : itemSumPrice
 
 	return (

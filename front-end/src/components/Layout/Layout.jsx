@@ -8,15 +8,18 @@ import { CategoryMenu } from '../CategoryMenu/CategoryMenu'
 import { MainContent } from '../MainContent/MainContent'
 import { BurgerBtn } from '../BurgerBtn/BurgerBtn'
 import { MobileMenu } from '../MobileMenu/MobileMenu'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { CurrencyContext } from '../../contexts/CurrencyContext'
 import { CURRENCIES } from '../../constants/currencies'
 import { CartContext } from '../../contexts/CartContext'
 import { useLocalStorage } from '../../hooks/useLocalStorage'
+import { useDisableScroll } from '../../hooks/useDisableScroll'
+import { useResize } from '../../hooks/useResize'
 
 export function Layout() {
-	const [isMobile, setIsMobile] = useState(window.innerWidth < 800)
+	const mobileWidth = 800
+	const [isMobile, setIsMobile] = useState(window.innerWidth < mobileWidth)
 
 	const [isMobileShown, setIsMobileShown] = useState(false)
 
@@ -27,39 +30,9 @@ export function Layout() {
 		return savedCart ? JSON.parse(savedCart) : []
 	})
 
-	useEffect(() => {
-		localStorage.setItem('cart_products', JSON.stringify(cartItems))
-	}, [cartItems])
+	useResize(setIsMobile, 800)
 
-	useEffect(() => {
-		const handleResize = () => setIsMobile(window.innerWidth < 800)
-
-		window.addEventListener('resize', handleResize)
-
-		return () => window.removeEventListener('resize', handleResize)
-	}, [])
-
-	useEffect(() => {
-		if (isMobileShown && isMobile) {
-			document.body.style.overflowY = 'hidden'
-			document.documentElement.style.overflowY = 'hidden'
-			document.addEventListener('touchmove', preventDefault, { passive: false })
-		} else {
-			document.body.style.overflowY = 'auto'
-			document.documentElement.style.overflowY = 'auto'
-		}
-		if (!isMobile) {
-			setIsMobileShown(false)
-		}
-
-		return () => {
-			document.body.style.overflowY = 'auto'
-			document.documentElement.style.overflowY = 'auto'
-			document.removeEventListener('touchmove', preventDefault)
-		}
-	}, [isMobileShown, isMobile])
-
-	const preventDefault = e => e.preventDefault()
+	useDisableScroll(isMobileShown, isMobile, setIsMobileShown)
 
 	const addToCart = product => {
 		const ProductInCart = cartItems.find(prod => prod.id === product.id)

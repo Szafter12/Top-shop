@@ -2,14 +2,11 @@ import { redirect } from 'react-router-dom'
 import { PATH_TO_ENDPOINT_MAPPING, BACKEND_URL } from '../constants/api'
 import { CATEGORIES } from '../constants/category'
 
-export const ProductListLoader = ({ 
-	params: { gender, category, subcategory }, request}) => {
+export const ProductListLoader = ({ params: { gender, category, subcategory }, request }) => {
 	const foundCategory = CATEGORIES.find(c => c.path === category)
 	const foundGender = PATH_TO_ENDPOINT_MAPPING[gender]
 	const pageUrl = new URL(request.url)
-	const page = pageUrl.searchParams.get("page") || 1
-	console.log(page);
-
+	const page = pageUrl.searchParams.get('page') || 1
 
 	if (foundCategory && foundGender) {
 		let url = `${BACKEND_URL}/products/?gender=${foundGender}&category=${category}`
