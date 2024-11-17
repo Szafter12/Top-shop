@@ -52,11 +52,11 @@ Start the server
 - Different views for each gender
 - Zooming in on a product image
 - scalable code 
+- popup on adding items to cart/favourites 
 
 ## Incoming changes
 
 - improve accessibility
-- improve UX such as popup on adding items to cart/fav 
 - better images
 - replace json server on a PHP or Golang backend 
 
