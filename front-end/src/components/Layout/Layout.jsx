@@ -43,6 +43,7 @@ export function Layout() {
 		if (isMobileShown && isMobile) {
 			document.body.style.overflowY = 'hidden'
 			document.documentElement.style.overflowY = 'hidden'
+			document.addEventListener('touchmove', preventDefault, { passive: false })
 		} else {
 			document.body.style.overflowY = 'auto'
 			document.documentElement.style.overflowY = 'auto'
@@ -54,8 +55,11 @@ export function Layout() {
 		return () => {
 			document.body.style.overflowY = 'auto'
 			document.documentElement.style.overflowY = 'auto'
+			document.removeEventListener('touchmove', preventDefault)
 		}
 	}, [isMobileShown, isMobile])
+
+	const preventDefault = e => e.preventDefault()
 
 	const addToCart = product => {
 		const ProductInCart = cartItems.find(prod => prod.id === product.id)
