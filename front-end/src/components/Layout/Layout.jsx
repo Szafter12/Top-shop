@@ -40,12 +40,21 @@ export function Layout() {
 	}, [])
 
 	useEffect(() => {
-		isMobileShown && isMobile ? (document.body.style.overflowY = 'hidden') : (document.body.style.overflowY = 'auto')
+		if (isMobileShown && isMobile) {
+			document.body.style.overflowY = 'hidden'
+			document.documentElement.style.overflowY = 'hidden'
+		} else {
+			document.body.style.overflowY = 'auto'
+			document.documentElement.style.overflowY = 'auto'
+		}
 		if (!isMobile) {
 			setIsMobileShown(false)
 		}
 
-		return () => (document.body.style.overflowY = 'auto')
+		return () => {
+			document.body.style.overflowY = 'auto'
+			document.documentElement.style.overflowY = 'auto'
+		}
 	}, [isMobileShown, isMobile])
 
 	const addToCart = product => {
