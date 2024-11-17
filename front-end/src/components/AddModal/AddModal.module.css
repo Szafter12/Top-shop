@@ -1,0 +1,21 @@
+.modal {
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	padding: 2rem;
+	background-color: var(--color-text-default);
+	transform: translateX(-50%) translateY(-100%);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.9);
+	z-index: 1000;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.active {
+	transform: translateX(-50%) translateY(0);
+	opacity: 1;
+}
+
+.modal p {
+	color: var(--color-white);
+}

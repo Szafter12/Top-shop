@@ -2,8 +2,6 @@ import { CenterContent } from '../CenterContent/CenterContent'
 import { FavProduct } from '../FavProduct/FavProduct'
 import styles from './FavProducts.module.css'
 export function FavProducts({ favourites }) {
-	console.log(favourites)
-
 	return (
 		<CenterContent>
 			<div className={styles.favProducts}>

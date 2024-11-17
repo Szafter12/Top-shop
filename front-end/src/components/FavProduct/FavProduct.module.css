@@ -16,7 +16,7 @@
 
 .productPhoto {
 	width: 140px;
-	height: 180px;
+	height: 200px;
 	object-fit: cover;
 }
 
@@ -65,7 +65,7 @@
 	}
 
 	.productPhoto {
-		height: 180px;
+		height: 250px;
 		width: 180px;
 	}
 }

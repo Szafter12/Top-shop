@@ -8,8 +8,15 @@ const MAP_GENDERS = {
 	children: 'dziecko',
 }
 
-export function Product({ product }) {
+export function Product({ product, setIsModalActive }) {
 	const { Form } = useFetcher()
+
+	const handleModalActive = () => {
+		setIsModalActive(true)
+		setTimeout(() => {
+			setIsModalActive(false)
+		}, 2000)
+	}
 
 	return (
 		<Link to={`/${MAP_GENDERS[product.gender]}/${product.category}/${product.subcategory}/${product.id}`}>
@@ -22,6 +29,7 @@ export function Product({ product }) {
 				<Form
 					onClick={e => {
 						e.stopPropagation()
+						handleModalActive()
 					}}
 					method='POST'
 					action={`/add-to-favourities/${product.id}`}>
