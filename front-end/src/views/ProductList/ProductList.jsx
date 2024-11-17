@@ -9,6 +9,7 @@ import { CATEGORIES } from '../../constants/category'
 import { AddModal } from '../../components/AddModal/AddModal'
 import { useContext } from 'react'
 import { ModalContext } from '../../contexts/ModalContext'
+import { HeadContent } from '../../components/HeadContent/HeadContent'
 
 export function ProductList() {
 	const { products, numberOfPages } = useLoaderData()
@@ -24,20 +25,23 @@ export function ProductList() {
 	}
 
 	return (
-		<CenterContent>
-			<FlexContainer>
-				<ExpandableMenu />
-				<div style={{ width: '100%' }}>
-					<Breadcrumbs />
-					<Products
-						products={products}
-						setIsModalActive={setIsModalActive}
-						heading={foundSubCategory ? foundSubCategory.categoryName : foundCategory.categoryName}
-					/>
-				</div>
-			</FlexContainer>
-			<Pagination numbersOfPages={numberOfPages} />
-			<AddModal isModalActive={isModalActive}>Ulubionych</AddModal>
-		</CenterContent>
+		<>
+			<HeadContent description='Lista naszych produktów'>Produkty</HeadContent>
+			<CenterContent>
+				<FlexContainer>
+					<ExpandableMenu />
+					<div style={{ width: '100%' }}>
+						<Breadcrumbs />
+						<Products
+							products={products}
+							setIsModalActive={setIsModalActive}
+							heading={foundSubCategory ? foundSubCategory.categoryName : foundCategory.categoryName}
+						/>
+					</div>
+				</FlexContainer>
+				<Pagination numbersOfPages={numberOfPages} />
+				<AddModal isModalActive={isModalActive}>Ulubionych</AddModal>
+			</CenterContent>
+		</>
 	)
 }
