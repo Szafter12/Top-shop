@@ -4,7 +4,7 @@ Demo E-commerce site created in react and json server. This is the final project
  
 ## Demo
 
-<b>WARNING! The backend server is running on a free version of Render web service so the landing time of the site and images may be longer please be patient.</b>
+<b>WARNING! The backend server is running on a free version of Render web service so the landing time of the site and images may be longer please be patient. (You can open this website and during page load you can check my other projects :)</b>
 <br><br>
 https://top-shop-szafter12.netlify.app/kobieta
 
