@@ -14,13 +14,13 @@ The primary aim of this project was to complete the **[zrozumieć-react.pl](http
 *   **E-commerce Logic:** Integrated pagination, currency switching, and gender-specific product views.
 *   **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.
 
-### Challenges you faced and how you solved them
+### Challenges
 *   **Data Persistence:** Ensuring the user's cart isn't lost after a page refresh without hitting the API constantly.
     *   **Solution:** Implemented a synchronization layer between the React state and `localStorage`, allowing for instant UI updates while keeping data safe.
 *   **Asynchronous State:** Managing the delay between user actions and backend updates (especially on free hosting).
     *   **Solution:** Added loading states and optimistic UI updates (popups) to provide immediate feedback to the user while the server processes requests.
 
-### Setup or usage instructions
+### Setup
 
 1. **Clone the project:**
 ```bash
@@ -36,7 +36,7 @@ npm install
 npm run dev
 ```
 4. **Live Demo:**
-- Visit the hosted version here: Top Shop Demo
+- Visit the hosted version here: [Top Shop Demo](https://top-shop-szafter12.netlify.app/kobieta)
 - Note: The backend is hosted on a free tier; please allow extra time for the initial spin-up.
 
 ### Technical concepts used
