@@ -1,71 +1,50 @@
-# Top shop
+# Top Shop
+A Feature-Rich E-commerce Demo built with React.
 
-Demo E-commerce site created in react and json server. This is the final project of the [zrozumieć-react.pl](https://zrozumiecreact.pl/) course. Detailed descriptions of the application can be found in the front-end and back-end folders.
- 
-## Demo
+### What the project is
+Top Shop is a modern e-commerce platform demo that simulates a real-world shopping experience. It utilizes a decoupled architecture with a **React** frontend and a **JSON Server** backend to manage product data, categories, and user preferences.
 
-<b>The backend server is running on a free version of Render web service so the landing time of the site and images may be longer please be patient</b>
-<br><br>
-https://top-shop-szafter12.netlify.app/kobieta
+### Aim
+The primary aim of this project was to complete the **[zrozumieć-react.pl](https://zrozumiecreact.pl/)** final course module. It focuses on mastering state management, handling side effects with **localStorage**, implementing complex UI patterns like breadcrumbs and pagination, and ensuring the code remains scalable and maintainable.
 
-## Run Locally
+### Key Features
+*   **Dynamic Cart System:** Add or remove items, manage quantities, and persist the cart state using `localStorage`.
+*   **Favorites Management:** Save preferred products to a persistent database.
+*   **Interactive UI:** Includes image zooming, breadcrumb navigation, and real-time popups for user actions.
+*   **E-commerce Logic:** Integrated pagination, currency switching, and gender-specific product views.
+*   **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.
 
-Clone the project
+### Challenges you faced and how you solved them
+*   **Data Persistence:** Ensuring the user's cart isn't lost after a page refresh without hitting the API constantly.
+    *   **Solution:** Implemented a synchronization layer between the React state and `localStorage`, allowing for instant UI updates while keeping data safe.
+*   **Asynchronous State:** Managing the delay between user actions and backend updates (especially on free hosting).
+    *   **Solution:** Added loading states and optimistic UI updates (popups) to provide immediate feedback to the user while the server processes requests.
 
+### Setup or usage instructions
+
+1. **Clone the project:**
 ```bash
-  git clone https://github.com/Szafter12/Top-shop.git
+git clone [https://github.com/Szafter12/Top-shop.git](https://github.com/Szafter12/Top-shop.git)
+cd Top-shop
 ```
-
-Go to the project directory
-
+2. **Install dependencies:**
 ```bash
-  cd Top-shop
+npm install
 ```
-
-Install dependencies
-
+3. **Start the development server:**
 ```bash
-  npm install
+npm run dev
 ```
+4. **Live Demo:**
+- Visit the hosted version here: Top Shop Demo
+- Note: The backend is hosted on a free tier; please allow extra time for the initial spin-up.
 
-Start the server
+### Technical concepts used
+- React (Vite): Fast, modern frontend development and bundling.
+- State Management: Handling complex object arrays (cart/favorites) across the application.
+- Persistence: Utilizing localStorage for client-side data retention.
+- Scalable Architecture: Modular component structure for easy feature expansion.
 
-```bash
-  npm run dev
-```
-
-## Screenshots
-
+### Images/video demos
 ![App Screenshot](./readmeImg/readme.png)
 ![App Screenshot](./readmeImg/readme2.png)
-
-## Features
-
-- Adding/removing product to/from the cart and save cart to localStorage
-- Adding/removing products to/from favourities and save it to database
-- Responsive design 
-- Counting items in cart 
-- Breadcrumbs
-- Currency change
-- products in cart have quantity 
-- Pagination 
-- Different views for each gender
-- Zooming in on a product image
-- scalable code 
-- popup on adding items to cart/favourites 
-
-## Incoming changes
-
-- improve accessibility
-- better images
-- replace json server on a PHP or Golang backend 
-
-## Tech Stack
-
-- React
-- JSON server
-- Vite
-
-## Authors
-
-- [@Jakub Pachut](https://github.com/Szafter12)
